@@ -1,0 +1,219 @@
+body{
+	margin: 0;
+	padding: 0;
+}
+.top{
+	margin-top: 20px;
+}
+#Main{
+	width: 100%;
+	padding: 0 50px;
+}
+.head{
+	margin-top: 20px;
+	width: 100%;
+	height: 215px;
+}
+.logoSide{
+	width: 150px;
+    height: 50px;
+    margin: 0;
+    padding: 0;
+    background: url('../Image/logo-emex-main.svg') 0 0 no-repeat;
+    background-size: contain;
+    margin-top: -7px;
+    margin-bottom: 6px;
+}
+.contactSide{
+	float: right
+}
+.border-top{
+	height: 4px;
+    margin: 5px 0 20px 0;
+    background-color: #ffaf1e;
+}
+.search{
+	width: 1000px;
+	float: right;
+	height: 80px;
+}
+.li{
+	width: 190px;
+	float: left;
+    font-size: 16px;
+    margin-right: 10px;
+    padding: 8px 20px 5px 20px;
+    cursor: pointer;
+    text-align: center;
+    border-radius: 4px 4px 0 0;
+    background-color: #f1f1f1;
+}
+.searchform{
+	    padding: 12px 20px 12px 20px;
+    background-color: #ffaf1e;
+    }
+    .active{
+    	background: #ffaf1e;	
+    }
+    .left{
+    	float: left;
+    	width: 40%;
+    }
+    .leftItem{
+
+    width: 100%;
+    display: inline-block;
+     }
+    .right{
+    	float: right;
+    	width: 58%;
+    }
+    .rightItem{
+    	width: 100%;
+    display: inline-block;
+    }
+    .itemLeft{
+
+    	margin-right: 10px;
+    	float: left;
+    	width: 47%;
+    	height: 188px;
+    	border: solid 1px #c7c7c7;
+    	position: relative;
+    }
+    .itemRight{
+    	position: relative;
+    	margin-left: 10px;
+    	float: left;
+    	width: 47%;
+    	height: 188px;
+    	border: solid 1px #c7c7c7;
+    }
+    .text{
+    	position: absolute;
+    top: 105px;
+    left: 10px;
+    line-height: 24px;
+    font-family: "Gals",Arial;
+    font-size: 20px;
+    color: #000;
+    }
+    .button{
+   	position: absolute;
+    top: 140px;
+    left: 8px;
+    width: 120px;
+    cursor: pointer;
+    height: 31px;
+    color: #000;
+    font-size: 14px;
+    font-family: "Open Sans";
+    font-weight: 400;
+    line-height: 30px;
+    text-decoration: none;
+    text-align: center;
+    outline: none;
+    background: #ffaf1e;
+    z-index: 5;
+    border-radius: 6%;
+    }
+    .imgSide{
+    	box-sizing: border-box;
+    	height: 187px;
+    	width: 98%;
+    	border: solid 1px #c7c7c7;
+    	overflow: hidden;
+    	position: relative;
+    }
+    .imgSide img{
+		width: 100%;
+    }
+    .imgAbout{
+    	position: absolute;
+    top: 148px;
+    width: 100%;
+    cursor: pointer;
+    height: 45px;
+    color: #000;
+    font-size: 14px;
+    font-family: "Open Sans";
+    font-weight: 400;
+    line-height: 30px;
+    text-decoration: none;
+    text-align: center;
+    outline: none;
+    background: #ffaf1e;
+    }
+    .itemFirst{
+    	position: relative;
+    	float: left;
+    	width: 60%;
+    	border: solid 1px #c7c7c7; 
+    	height: 401px;
+    }
+    .itemSec{
+    	position: relative;
+    	float: right;
+    	width: 37%;
+    	margin-left: 20px;
+    	height: 401px;
+    	border: solid 1px #c7c7c7;
+    }
+    .textRight{
+    	position: absolute;
+    top: 240px;
+    left: 29px;
+    line-height: 24px;
+    font-family: "Gals",Arial;
+    font-size: 20px;
+    color: #000;
+    }
+    .buttonCars{
+    position: absolute;
+    top: 340px;
+    right: 10px;
+    width: 120px;
+    cursor: pointer;
+    height: 31px;
+    color: #000;
+    font-size: 14px;
+    font-family: "Open Sans";
+    font-weight: 400;
+    line-height: 30px;
+    text-decoration: none;
+    text-align: center;
+    outline: none;
+    background: #ffaf1e;
+    z-index: 5;
+    border-radius: 6%;
+    }
+    .imgAboutRight{
+    	position: absolute;
+    top: 355px;
+    width: 100%;
+    cursor: pointer;
+    height: 45px;
+    color: #000;
+    font-size: 14px;
+    font-family: "Open Sans";
+    font-weight: 400;
+    line-height: 30px;
+    text-decoration: none;
+    text-align: center;
+    outline: none;
+    background: #ffaf1e;
+    }
+    .rightBack{
+	margin-right: 10px;
+	float: left;
+	width: 34%;
+	height: 187px;
+	border: solid 1px #c7c7c7;
+	position: relative;
+    }
+    .backRight{
+    	width: 63%;
+    	float: right;
+   
+    	height: 180px;
+    }
